@@ -1,0 +1,763 @@
+2026-10-01T15:19:06,390 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:19:06,398 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:19:07,399 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:19:07,399 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:19:08,413 [main] WARN  com.example.MockLogGenerator - High memory usage detected
+2026-10-01T15:19:09,414 [main] ERROR com.example.MockLogGenerator - Failed to load user profile for 02277a60_673b_4057_8920_71254f86d9e5
+2026-10-01T15:19:10,415 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:19:10,415 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:19:11,416 [main] INFO  com.example.MockLogGenerator - User 5c007271_cdda_4ec4_a464_a3c9420ec2c5 deleted account
+2026-10-01T15:19:12,417 [main] INFO  com.example.MockLogGenerator - User be140224_a715_4f12_9ea3_dd520214a70c deleted account
+2026-10-01T15:19:13,417 [main] WARN  com.example.MockLogGenerator - User session nearing timeout for e027c11f_bb09_40f3_bfbc_dfb211e52840
+2026-10-01T15:19:14,418 [main] ERROR com.example.MockLogGenerator - Error processing payment for f54ab2ef_69e3_4b68_8698_29deb2a16451
+2026-10-01T15:19:15,418 [main] ERROR com.example.MockLogGenerator - Database connection lost for f7c78012_975a_40e5_8a90_0b9a93a544fc
+2026-10-01T15:19:16,419 [main] INFO  com.example.MockLogGenerator - User 96b67f29_eaa1_4876_8da8_9f7c0f47a1be logged in
+2026-10-01T15:19:17,419 [main] INFO  com.example.MockLogGenerator - User 80f3b51c_8fda_4109_8ca3_7658936a3277 completed purchase
+2026-10-01T15:19:18,420 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:19:18,420 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:19:19,421 [main] INFO  com.example.MockLogGenerator - User 3ceffb75_c00d_4491_9e5b_28cfa41f7976 logged out
+2026-10-01T15:19:20,422 [main] WARN  com.example.MockLogGenerator - High memory usage detected
+2026-10-01T15:19:21,423 [main] ERROR com.example.MockLogGenerator - Error processing payment for 3b372a8b_a0f2_42b2_998b_ff6a9806d043
+2026-10-01T15:19:22,424 [main] WARN  com.example.MockLogGenerator - High memory usage detected
+2026-10-01T15:19:23,425 [main] INFO  com.example.MockLogGenerator - User c4ae32d0_5dbb_4b8c_aad7_2a032b1fc39f updated profile
+2026-10-01T15:19:24,425 [main] ERROR com.example.MockLogGenerator - Database connection lost for daf8b361_4801_48d7_8d32_3db939d0b154
+2026-10-01T15:19:25,426 [main] WARN  com.example.MockLogGenerator - Disk space running low
+2026-10-01T15:19:26,426 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:19:26,427 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:19:27,427 [main] INFO  com.example.MockLogGenerator - User 22179aa9_d209_40a7_8044_e4afa8431237 updated profile
+2026-10-01T15:19:28,428 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:19:28,428 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:19:29,429 [main] ERROR com.example.MockLogGenerator - Failed to load user profile for 155d4a2c_462c_46f0_8680_58e8271c6784
+2026-10-01T15:19:30,429 [main] WARN  com.example.MockLogGenerator - High memory usage detected
+2026-10-01T15:19:31,430 [main] ERROR com.example.MockLogGenerator - Database connection lost for 597823f4_226f_4418_b0a4_78bf2090cb31
+2026-10-01T15:19:32,430 [main] INFO  com.example.MockLogGenerator - User 1162dabd_3a9f_4d11_90c8_a787de4cdf81 logged in
+2026-10-01T15:19:33,431 [main] WARN  com.example.MockLogGenerator - User session nearing timeout for 8eb36d97_e2f8_4570_9883_f3f20055ca7c
+2026-10-01T15:19:34,432 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:19:34,432 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:19:35,432 [main] ERROR com.example.MockLogGenerator - Error processing payment for 98d0cbe6_1527_435e_bde7_1de41018854e
+2026-10-01T15:19:36,433 [main] ERROR com.example.MockLogGenerator - Failed to load user profile for add1d17f_ebc1_4973_8f58_b7857da69e5d
+2026-10-01T15:19:37,433 [main] INFO  com.example.MockLogGenerator - User 5c6fec94_d304_45ef_aa51_2d30b5272b4e added an item to cart
+2026-10-01T15:19:38,435 [main] INFO  com.example.MockLogGenerator - User 1f2cda5c_bf7f_41ec_ba8f_8a5f982741dd updated profile
+2026-10-01T15:19:39,435 [main] INFO  com.example.MockLogGenerator - User bdac2180_c7ff_4ccf_b49d_f967bc13a6cd logged in
+2026-10-01T15:19:40,436 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:19:40,436 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:19:41,437 [main] WARN  com.example.MockLogGenerator - User session nearing timeout for 1a53725f_c596_4362_8933_225eec7274c9
+2026-10-01T15:19:42,438 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:19:42,439 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:19:43,439 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:19:43,440 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:19:44,440 [main] INFO  com.example.MockLogGenerator - User da24f26e_457c_4e70_9c9a_00250c1fc720 logged in
+2026-10-01T15:19:45,441 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:19:45,441 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:19:46,442 [main] WARN  com.example.MockLogGenerator - High memory usage detected
+2026-10-01T15:19:47,443 [main] INFO  com.example.MockLogGenerator - User 1cbb0a77_053d_41dc_9a54_e91d4ea38a9d updated profile
+2026-10-01T15:19:48,444 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:19:48,444 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:19:49,445 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:19:49,445 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:19:50,446 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:19:50,446 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:19:51,447 [main] WARN  com.example.MockLogGenerator - User session nearing timeout for d2305022_9775_4cee_b49c_54a4e83e1b77
+2026-10-01T15:19:52,447 [main] ERROR com.example.MockLogGenerator - Database connection lost for 3224416f_effe_45e2_bfb6_ad79b8b22bef
+2026-10-01T15:19:53,448 [main] WARN  com.example.MockLogGenerator - User session nearing timeout for 0455eef6_0ec9_41a5_bdcd_edb13efd9ac8
+2026-10-01T15:19:54,450 [main] INFO  com.example.MockLogGenerator - User 1c0a7ec7_4cda_43bb_a1b6_7c0480865bc7 updated profile
+2026-10-01T15:19:55,450 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:19:55,451 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:19:56,452 [main] INFO  com.example.MockLogGenerator - User 8caa09fd_83d4_4986_80c5_1f60978274c5 completed purchase
+2026-10-01T15:19:57,452 [main] WARN  com.example.MockLogGenerator - Disk space running low
+2026-10-01T15:19:58,453 [main] ERROR com.example.MockLogGenerator - Database connection lost for 6b096048_1c94_4c71_b8a5_38d3972702e5
+2026-10-01T15:19:59,453 [main] WARN  com.example.MockLogGenerator - Disk space running low
+2026-10-01T15:20:00,454 [main] ERROR com.example.MockLogGenerator - Failed to load user profile for 50b185fd_295f_4e45_89cf_76e1fea32241
+2026-10-01T15:20:01,454 [main] INFO  com.example.MockLogGenerator - User d8eb5c89_a8bc_4d14_afd2_4224fe3b9e8e logged out
+2026-10-01T15:20:02,455 [main] WARN  com.example.MockLogGenerator - User session nearing timeout for 37bfe496_6e33_4bc5_842e_fd15068e9a1b
+2026-10-01T15:20:03,455 [main] INFO  com.example.MockLogGenerator - User 45b4b74d_d4c6_4dd2_a856_afc4e33db2db deleted account
+2026-10-01T15:20:04,456 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:04,456 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:05,457 [main] WARN  com.example.MockLogGenerator - Disk space running low
+2026-10-01T15:20:06,457 [main] INFO  com.example.MockLogGenerator - User 7d07d717_0a9d_4182_986e_6156d3f905fe logged in
+2026-10-01T15:20:07,458 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:07,458 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:08,459 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:08,459 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:09,459 [main] WARN  com.example.MockLogGenerator - High memory usage detected
+2026-10-01T15:20:10,460 [main] INFO  com.example.MockLogGenerator - User b4c7a249_6252_4aa3_8b97_ec05c9aa775a completed purchase
+2026-10-01T15:20:11,461 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:11,461 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:12,462 [main] INFO  com.example.MockLogGenerator - User b017e3b7_b8b3_4087_a89d_9fd516c0169f completed purchase
+2026-10-01T15:20:13,462 [main] INFO  com.example.MockLogGenerator - User 3d62a6fc_4094_4857_937d_0f6e4282506b logged out
+2026-10-01T15:20:14,463 [main] ERROR com.example.MockLogGenerator - Failed to load user profile for b98d1723_13f3_482f_af98_deda04772244
+2026-10-01T15:20:15,463 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:15,464 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:16,464 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:16,465 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:17,465 [main] WARN  com.example.MockLogGenerator - High memory usage detected
+2026-10-01T15:20:18,467 [main] INFO  com.example.MockLogGenerator - User b07f75f2_1c89_40ee_92e4_5d61e734b4d9 logged in
+2026-10-01T15:20:19,468 [main] WARN  com.example.MockLogGenerator - User session nearing timeout for f2824a42_fa77_4e46_bda0_725c4b1195eb
+2026-10-01T15:20:20,468 [main] ERROR com.example.MockLogGenerator - Database connection lost for f71e08c9_4402_4024_ae7d_43400e78b8cc
+2026-10-01T15:20:21,469 [main] WARN  com.example.MockLogGenerator - High memory usage detected
+2026-10-01T15:20:22,469 [main] WARN  com.example.MockLogGenerator - High memory usage detected
+2026-10-01T15:20:23,470 [main] ERROR com.example.MockLogGenerator - Failed to load user profile for 9f7c03e1_f488_45ae_965a_c0d7f277d408
+2026-10-01T15:20:24,470 [main] WARN  com.example.MockLogGenerator - User session nearing timeout for c9c574eb_e57c_4aab_822c_8bc432bdf3c0
+2026-10-01T15:20:25,471 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:25,471 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:26,472 [main] WARN  com.example.MockLogGenerator - Disk space running low
+2026-10-01T15:20:27,472 [main] INFO  com.example.MockLogGenerator - User aabbffe3_e404_4bc6_8deb_eef6f8ff61c6 deleted account
+2026-10-01T15:20:28,473 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:28,473 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:29,474 [main] ERROR com.example.MockLogGenerator - Failed to load user profile for 4ba13dcd_6601_4007_9512_2a3dd15eaf75
+2026-10-01T15:20:30,474 [main] ERROR com.example.MockLogGenerator - Error processing payment for 17437f06_e89f_4338_affb_6901dbddfb8e
+2026-10-01T15:20:31,475 [main] INFO  com.example.MockLogGenerator - User 6e87669c_afb1_4b75_bff8_0bc7b435155d deleted account
+2026-10-01T15:20:32,475 [main] INFO  com.example.MockLogGenerator - User e1b942f9_87c5_4668_acc8_ffc1f7f60d83 updated profile
+2026-10-01T15:20:33,476 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:33,476 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:34,477 [main] ERROR com.example.MockLogGenerator - Error processing payment for 8e36dd32_b6f6_4c8e_a6f1_27cdfb9a157d
+2026-10-01T15:20:35,477 [main] ERROR com.example.MockLogGenerator - Failed to load user profile for 0c1a93b9_4588_4e25_a12e_52058766a841
+2026-10-01T15:20:36,478 [main] INFO  com.example.MockLogGenerator - User 170eb544_0466_4321_9d71_be22c4821fb5 completed purchase
+2026-10-01T15:20:37,479 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:37,479 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:38,480 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:38,481 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:39,482 [main] ERROR com.example.MockLogGenerator - Error processing payment for e4baca31_4689_4b4e_b704_588d91cb4e4e
+2026-10-01T15:20:40,483 [main] WARN  com.example.MockLogGenerator - Disk space running low
+2026-10-01T15:20:41,484 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:41,485 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:42,485 [main] ERROR com.example.MockLogGenerator - Failed to load user profile for 42c33ec9_7367_4967_a468_faf9cf6b176d
+2026-10-01T15:20:43,486 [main] INFO  com.example.MockLogGenerator - User 057c2bd1_707a_412c_98e2_3cee6a1f0d3c logged out
+2026-10-01T15:20:44,487 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:44,488 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:45,489 [main] ERROR com.example.MockLogGenerator - Database connection lost for f954deb2_1d08_43ed_8a7c_433d87e86019
+2026-10-01T15:20:46,489 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:46,490 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:47,490 [main] WARN  com.example.MockLogGenerator - Disk space running low
+2026-10-01T15:20:48,490 [main] INFO  com.example.MockLogGenerator - User 89cd7065_a092_4a84_a684_a8e74fb7b3f4 deleted account
+2026-10-01T15:20:49,491 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:49,492 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:50,492 [main] ERROR com.example.MockLogGenerator - Error processing payment for 918f6c84_05d1_4cfe_b92f_e411484fc9ee
+2026-10-01T15:20:51,493 [main] ERROR com.example.MockLogGenerator - Failed to load user profile for 3afa695a_8089_4c2f_ac50_8dac9128f3c9
+2026-10-01T15:20:52,493 [main] INFO  com.example.MockLogGenerator - User 6122e390_6458_4408_af00_b178ef35a891 added an item to cart
+2026-10-01T15:20:53,494 [main] ERROR com.example.MockLogGenerator - Error processing payment for 539527b5_bcce_4ec9_bfff_8da792794f0c
+2026-10-01T15:20:54,494 [main] INFO  com.example.MockLogGenerator - User 6d43c43d_cb64_45cd_b8a2_9f9cd0eeb88f added an item to cart
+2026-10-01T15:20:55,495 [main] ERROR com.example.MockLogGenerator - Error reading file: non_existing_file.txt
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) [main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:55,496 [main] ERROR com.example.MockLogGenerator - IOException occurred while performing I/O operation
+java.io.FileNotFoundException: non_existing_file.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.example.MockLogGenerator.performIOOperation(MockLogGenerator.java:97) ~[main/:?]
+	at com.example.MockLogGenerator.logException(MockLogGenerator.java:87) [main/:?]
+	at com.example.MockLogGenerator.generateLogs(MockLogGenerator.java:52) [main/:?]
+	at com.example.MockLogGenerator.main(MockLogGenerator.java:30) [main/:?]
+2026-10-01T15:20:56,496 [main] WARN  com.example.MockLogGenerator - Disk space running low
+2026-10-01T15:20:57,497 [main] ERROR com.example.MockLogGenerator - Database connection lost for a16802e2_d4d3_4a3d_8e21_ced4e057bda2
